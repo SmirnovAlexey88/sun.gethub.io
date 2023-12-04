@@ -1,1 +1,326 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head><meta charset="UTF-8">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> 
 
+   <link rel = "stylesheet"href = "stile.css">
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Web ui</title>
+   <script src="6.js"></script>
+</head>
+<body style="margin:0;">
+   <header>
+   <div class = "text1">
+   <div class="block1">
+      <img class="img1" src="image.png">
+      <div class="block2">Главная страница</div>
+      <div class="block4">
+         <Ul id="navbar">
+            <li> <a href="#Href">Гиперссылки</a></li>
+            <li> <a href="#table">Таблица</a></li>
+            <li> <a href="#form">Форма</a></li>
+         </Ul>
+      </div>
+      </div>
+   </header>
+<body>
+   <nav>
+   <section id="href">
+   <div class = "block3">
+   <div class = "text1">
+      <h1>Маркированный список</h1>
+    <ul>
+      <li><a href="http://kubsu.ru/">Ссылка на Кубгу</a></li>
+      
+      <li><a href="https://kubsu.ru/">Ссылка на Кубгу через https</a></li>
+      
+      <li> <a href="https://youtu.be/qqGl0brwTSk?si=mhzTq-hsiDxhw-q6">
+         <img src="https://a.d-cd.net/9481856s-1920.jpg" width="200" height="200" width="200">
+      </a> </li>
+      <li> <a href="/vnutri.html">Внутренняя страница</a> </li>
+      <li> <a href="/index.html">Главная страница</a> </li>
+      <li> <nav> <a href="#about">Фрагмент </a> </li>
+      <li> <a href="https://a-alichenko.github.io/index.html?1&2&3">3параметра</a> </li>
+      <li> <a href="https://a-alichenko.github.io/index.html#yes" class="site" target="_blank">Параметр с id</a></li>
+      <li> <a href="./dop.html"> Относительная ссылка на страницу  в каталоге  </a> </li>
+      <li> <a href="./about/yes1.html">Ссылка относительная на страницу в каталоге about</a></li>
+      <li> <a href="../about/yes1.html"> Относительная на страницу выше текущего</a></li>
+      <li> <a href="./Katalog/Katalog1/new1.html"> Относительная на страницу выше текущего на 2</a></li>
+      <li> <p>Здесь <a href="/Kont.html">контекстная ссылка </a></p></li>
+      <li> <a href="/frag.html#target">Фрагмент строннего сайта</a></li>
+      <li>    
+         <map name="clickable">
+            <area shape="circle" coords="309,164,60" href="https://youtu.be/qa5wIivTuxY?si=-3ofDEOefsVxruOj">
+            <area shape="rect" coords="185,225,268,352" href="https://youtu.be/DMGWsnWCIq8?si=YBLASLK57nP0mKgp">
+          </map>
+          <img usemap="#clickable" src="https://koshka.top/uploads/posts/2021-12/1638847770_82-koshka-top-p-ochen-khoroshie-kotiki-87.jpg" alt="picture" width="500px" height="300px">
+         </li> 
+      <li> <a href="">Пустая ссылка</a></li>
+      <li> <a>Нету href</a> </li>
+      <li> <a href="https://vk.com/al_feed.php" rel="nofollow">Ссылка закрытая</a></li>
+      <li> <a href="https://vk.com/al_feed.php"rel="nofollow"><noindex>Ссылка неиндексирующая</noindex></a></li>   
+      <li>
+         
+         <ol>
+            <li><a href="https://youtu.be/Zi_XLOBDo_Y?si=t8gT2FjhFgo3yCIe" title="1ссылка">1ссылка</a></li>
+            <li> <a href="https://youtu.be/oRdxUFDoQe0?si=MV65wqzkEuoIknwi" title="2ссылка">2ссылка</a></li>
+         
+
+            
+         </ol> </li>
+      <li> <a href="ftp://usr12:pwrd3@test.rebex.net/Temp/file.txt">Ftp сервер</a></li></div>
+      </section>
+
+      <section id="table" class="table1">
+         <div class="block3">
+         <div class="text1">
+         <table class="table">
+            <tbody>
+            <tr>
+               <th class="th">№ пары</th>
+               <th class="th">Начало пары</th>
+               <th class="th">Конец пары</th>
+               <th class="th">Перемена</th>
+            </tr>
+            <tr>
+               <td class="td"> 1пара</td>
+               <td class="td"> 8:00</td>
+               <td class="td"> 9:20</td>
+               <td class="td"> 10мин</td>
+            </tr>
+            <tr>
+               <td class="th"> 2пара</td>
+               <td class="th"> 9:30 </td>
+               <td class="th"> 10:50 </td>
+               <td class="th"> 20мин</td>
+            </tr>
+            <tr>
+               <td class="td"> 3пара</td>
+               <td class="td"> 11:10 </td>
+               <td class="td"> 12:30 </td>
+               <td class="td"> 10мин</td>
+            </tr>
+            <tr>
+               <td class="th"> 4пара</td>
+               <td class="th"> 12:40 </td>
+               <td class="th"> 14:00 </td>
+               <td class="th"> 10мин</td>
+            </tr>
+            <tr>
+               <td class="td"> 5пара</td>
+               <td class="td"> 14:10 </td>
+               <td class="td"> 15:30 </td>
+               <td class="td"> 10мин</td>
+            </tr>
+            <tr>
+               <td class="th"> 6 пара </td>
+               <td class="th" colspan="3"> </td>
+            </tr>
+         </tbody>
+         </table>
+         </div> 
+      </section>    
+    </nav>
+      <nav>
+      <section id = "form">
+         <div class = "text1">
+      <div class="block3">
+      <h2>Форма поля</h2>
+      <form action="/" method="POST">
+         <label>
+            ФИО:<br />
+            <input name="field-name-1"
+              value="ФИО" />
+          </label><br />
+         <label>
+            Телефон:<br />
+            <input name="field-tell"
+              type="tell"required
+              placeholder="Введите номер телефона" />
+          </label><br />
+         <label>
+            Текстовое поле email:<br />
+            <input name="field-email"
+              type="email"required
+              placeholder="Введите email" />
+          </label><br />
+         <label>
+            Дата рождения:<br />
+            <input name="field-date"
+              value="2019-08-13"
+              type="date"required>
+          </label><br />
+          Пол:<br />
+         <label><input type="radio" checked="checked"
+            name="radio-group-1" value="Мужской"required />
+            Мужской</label>
+         <label><input type="radio"
+            name="radio-group-1" value="Женский" required/>
+            Женский</label><br />
+         <label>
+            Любимый язык программирования:
+            <br />
+            <select name="field-name-4[]"
+              multiple="multiple"required>
+              <option value="Значение1">Pascal</option>
+              <option value="Значение2">C</option>
+              <option value="Значение3">C++</option>
+              <option value="Значение4"selected="selected">JavaScript</option>
+              <option value="Значение5"selected="selected">PHP</option>
+              <option value="Значение6">Python</option>
+              <option value="Значение7">Java</option>
+              <option value="Значение8">Haskel</option>
+              <option value="Значение9">Clojure</option>
+              <option value="Значение10">Prolog</option>
+              <option value="Значение11">Scala</option>
+            </select>
+        
+          </label><br />
+        
+         <label>
+            Биография:<br />
+            <textarea name="field-name-2"required>Напишите о себе</textarea>
+          </label><br />
+          С контрактом ознакомлен(а):<br />
+         <label><input type="checkbox" checked="checked"
+            name="check-1" required/>
+            Подпись</label><br />
+            <input type="submit" value="Сохранить" /></div>
+         </form>
+         <section>
+            <div class="text1">
+            <div class="block3">
+               <form onsubmit="return false">
+                 <input id="num1" />
+                 <select id="select1">
+                  <option value="1500">Самсунг 1500 руб</option>
+                  <option value="20">Ксиоми 20руб</option>
+                  <option value="10000">Айфон 10000 руб</option>
+                 </select>
+                 
+                 <button type="submit" onclick="Math1()">Посчитать</button>
+                 <p id="result"></p>
+               </form>  
+            </div> 
+            </div>
+         </section>
+   </ul>   
+   </section>
+   <section>
+      <div class="text1">
+      <div class="block3">
+      <input id="num2" />
+        <p> Тип товара:</p>
+         <form>
+           <select name="prodType">
+             <option value="1">Porshe</option>
+             <option value="2">Mersedes</option>
+             <option value="3">BMW</option>
+           </select>
+           <div id="radios">
+             <label><input type="radio" name="prodOptions" value="option1"> Люкс</label>
+             <label><input type="radio" name="prodOptions" value="option2"> Премиум</label>
+             <label><input type="radio" name="prodOptions" value="option3"> Тяжелый Люкс</label>
+           </div>
+           <div id="checkboxes">
+             <label><input type="checkbox" name="prop1">Подогрев руля</label>
+             <label><input type="checkbox" name="prop2">Зимняя резина</label>
+           </div>
+         </form>
+         <button type="submit" onclick="updatePrice()">Посчитать</button>
+         <p id="prodPrice"></p>
+      </div></div>
+   </section>
+   <section>
+      <div class="text1">
+      <div class="block6">
+         <div class="multi">
+            <div><img class="img2" src="pic/1.png"></div>
+            <div><img class="img2" src="pic/2.png"></div>
+            <div><img class="img2" src="pic/3.png"></div>
+            <div><img class="img2" src="pic/4.png"></div>
+            <div><img class="img2" src="pic/5.png"></div>
+            <div><img class="img2" src="pic/6.png"></div>
+            <div><img class="img2" src="pic/7.png"></div>
+            <div><img class="img2" src="pic/8.png"></div>
+         </div>
+      </div>
+      </div>
+      </section>
+      <section>
+         <div class="block3">
+            <button type="submit" onclick="PopUpShow()">Кнопка</button>
+        </div>
+        <div class="b-popup" id="popup1">
+            <div class="block3">
+            <div class="text1">
+               <form action="https://api.slapform.com/Gn2sGIb4f">
+               <label>
+                  ФИО:<br />
+                  <input name="field-name-1" required
+                    value="ФИО" />
+                </label><br />
+               <label>
+                  Телефон:<br />
+                  <input name="field-tell"
+                    type="tell" required
+                    placeholder="Введите ваш номер телефона" />
+                </label><br />
+               <label>
+                  Текстовое поле email:<br />
+                  <input name="field-email"
+                    type="email" required 
+                    placeholder="Введите вашу почту" />
+                </label><br />
+                <label> 
+                  Организация: <br />
+                  <input name="field-name-2" required 
+                   value="Организация"/>
+                </label> <br />
+                <label>
+                  Сообщение:<br />
+                  <textarea name="field-name-2" required>Напишите о себе</textarea>
+                </label><br />
+                <label><input type="checkbox" checked="checked"
+                  name="check-1" required/>
+                  Согласие с политикой обработки персональных данных</label><br />
+                  <input type="submit" value="Сохранить" />
+               </form>
+            </div>
+        </div>
+        </div>
+      </section>
+
+      <section id="about">
+         <div class = "text1">
+         <div class = "block3">
+      <h3>Вы перешли на фрагмент</h3>
+  
+      <section id="yes">
+         <h3>Переход по Id</h3>
+      </section>
+   </nav>
+   <footer> 
+      <div class="block5">
+      <p class="text1"> (c) А.Смирнов </p>
+      </div>
+   </footer>
+   <script>
+      function Math1(){
+         var r;
+       var num1=Number(document.getElementById("num1").value);
+      var num2=Number(document.getElementById("select1").value);
+      if(num1<0)  r="Отрицательное число";
+      if (num1>=0)   r=num1*num2;
+      document.getElementById("result").innerHTML=r;
+      }
+
+      </script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+      <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+      <script src="7.js"></script>
+      <script src="8.js"></script>
+</body>
+</html>
